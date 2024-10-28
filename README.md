@@ -22,4 +22,4 @@ Este é um projeto web com uma implementação simples de uma Pokédex, constru�
 -   `Pokemon-model.js`, `poke-api.js`, `main.js`.
 
 ## Como Teste
-Experiemente: [Clique aqui para acessar a Pokedex](https://rsouza13.github.io/Pokedex/).
+Experiemente: [Clique aqui para acessar a Pokedex](https://rsouza13.github.io/Pokedex/){:target="_blank"}.
