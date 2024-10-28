@@ -18,7 +18,8 @@ Este é um projeto web com uma implementação simples de uma Pokédex, constru�
 
 -   `index.html`: Estrutura principal da página, incluindo referências aos arquivos CSS e JavaScript.
 -   `assets/css/`: Contém os arquivos de estilização (`reset.css`, `style.css` e `modalDetailPokemon.css`).
--   `assets/js/`: Contém os arquivos JavaScript responsáveis pela lógica da aplicação, incluindo a interação com a PokéAPI (`Pokemon-model.js`, `poke-api.js`, `main.js`).
+-   `assets/js/`: Contém os arquivos JavaScript responsáveis pela lógica da aplicação, incluindo a interação com a [PokéAPI](https://pokeapi.co/) 
+-   `Pokemon-model.js`, `poke-api.js`, `main.js`.
 
 ## Como Teste
-Experiemente: (Clique aqui para acessar a Pokedex)[https://rsouza13.github.io/jogo-detona-ralph/].
+Experiemente: [Clique aqui para acessar a Pokedex](https://rsouza13.github.io/Pokedex/).
