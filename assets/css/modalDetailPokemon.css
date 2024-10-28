@@ -1,0 +1,129 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+.pokemonDetailContent {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.background{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content: center;
+    /* Background com metade transparente horizontal */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 1rem;
+}
+
+.header_detail {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding: 1rem;
+    color: #fff;
+}
+
+.header_detail div {
+  border-radius: 1rem;
+  padding: 0.25rem 1.5rem;
+  filter: brightness(0.9);
+}
+
+
+.header_detail_name {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.header_detail_id {
+    font-size: 1.3rem;
+}
+
+.apresentacao_pokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 0.5rem;
+}
+.apresentacao_pokemon_foto {
+  filter: drop-shadow(10px -10px 0.1rem #000);
+}
+
+.apresentacao_pokemon_tipo {
+  font-size: 1.25rem;
+  padding: .5rem 1rem;
+  border-radius: 80px;
+  width: 4rem;
+  color: #fff; 
+  text-transform: uppercase;
+  filter: brightness(0.9);
+  margin: 0 1rem;
+}
+
+.apresentacao_pokemon_type {
+  margin-top: 1rem;
+} 
+
+.apresentacao_pokemon_label {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.apresentacao_pokemon_caracteristica_conteiner{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.apresentacao_pokemon_caracteristica {
+     display: flex;
+    flex-direction: column;
+    gap: .3rem; 
+}
+.pokemon_habilities{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.pokemon_habilities .ability{
+  color: #fff;
+  padding: .25rem .5rem;
+  margin: .25rem 0;
+  font-size: 1rem;
+  border-radius: 1rem;
+  text-transform: capitalize;
+  filter: brightness(0.92);
+}
